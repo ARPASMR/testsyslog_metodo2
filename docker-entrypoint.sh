@@ -5,7 +5,7 @@ while [ true ]; do
         # Per syslog
         # Per priorità vedere https://www.tutorialspoint.com/unix/unix-system-logging.htm
 	logger --id --stderr -p user.info -t TEST "This is a test message: "`date +"%Y-%m-%d %H:%M:%S"`
-        logger --id --stderr -p user.alert -t ALERT "This is an alert message: "`date +"%Y-%m-%d %H:%M:%S"`
+        logger --id --stderr -p user.info -t ALERT "This is an alert message: "`date +"%Y-%m-%d %H:%M:%S"`
         
 	###########################################################################################
 	# E' possibile dopo aver configurato i demone rsyslog locale anche dire a docker, attraverso lo switch della riga di comando "--log-driver syslog" di ridirigere lo stderr
