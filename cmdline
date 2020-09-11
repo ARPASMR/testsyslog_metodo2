@@ -1,2 +1,2 @@
-docker run --hostname testsyslog --name testsyslog -d --rm testsyslog
+docker run --hostname testsyslog_metodo2 --name testsyslog_metodo2 -d --rm testsyslog_metodo2
 
