@@ -14,8 +14,10 @@ while [ true ]; do
 	echo "Questo e' un messaggio di test generato dal container ARPASMR/testsyslog_metodo2: "`date +"%Y-%m-%d %H:%M:%S"`
 	echo "This is stdout"
 	echo "This is stderr" 1>&2
-	echo "This is WARNING message" 1>&3
-	echo "This is DEBUG message" 1>&4
+	#echo "This is WARNING message" 1>&3
+	#echo "This is DEBUG message" 1>&4
+	/usr/bin/logger -p user.info -t TEST "prova"`date +"%Y-%m-%d %H:%M:%S"`
+
 
 	sleep 60
         #echo "$D ERROR An error is usually an exception that has been caught and not handled."
