@@ -14,7 +14,7 @@ while [ true ]; do
 	## echo "This is stdout"
 	## echo "This is stderr" 1>&2
 	### echo "Questo è un messaggio di test: "`date +"%Y-%m-%d %H:%M:%S"`
-	sleep 600
+	sleep 60
       
         #"1") echo "$D ERROR An error is usually an exception that has been caught and not handled."
         #"2") echo "$D INFO This is less important than debug log and is often used to provide context in the current task."
