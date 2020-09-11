@@ -1,0 +1,2 @@
+docker run --hostname testsyslog --name testsyslog -d --rm testsyslog
+
