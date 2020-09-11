@@ -6,5 +6,5 @@ ENV no_proxy="localhost,.arpa.local,127.0.0.11,127.0.0.1"
 
 COPY docker-entrypoint.sh /
 
-CMD ["/docker-entrypoint.sh"]
-
+ENTRYPOINT ["/docker-entrypoint.sh"]
+#CMD ["/docker-entrypoint.sh"]
